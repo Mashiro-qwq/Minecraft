@@ -2,8 +2,6 @@
 <img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/4d/Mclogo.svg/revision/latest?cb=20201005104411" width="512">
 </p>
 
-~~<h4 align="center"> Minecraft server IP :<font color=red>mc.lolitech.cn</font></h4>~~
-
 <span style="font-size: 28px">欢迎来到Mashiro的MC基友服务器
 
 > 本服务器版本始终与 Minecraft 最新发布版本/每周快照版本保持同步 (预计每周三晚12点进行停机维护更新)

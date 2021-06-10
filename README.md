@@ -16,7 +16,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
     - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
         - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version 1.0.11
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.0
-        - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 0.34.9-1.10
+        - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 0.34.9-1.10.1
         - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.9+1.17
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0

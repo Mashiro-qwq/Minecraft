@@ -17,7 +17,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version 1.0.11
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.0
         - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 0.34.9-1.10.1
-        - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.9+1.17
+        - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.10+1.17
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
         - [[箱子渲染优化]FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest) version 1.2+1.17
@@ -31,7 +31,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[迷你信息]MiniHUD](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.19.0-dev.20200928.220110
         - [[优化前置]MixinBootstrap](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap) version 1.0.4
         - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.0-beta.7
-        - [[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version 1.16.1-0.6.0+build.7
+        - [[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version 0.7.2+build.12
         - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version mc1.16.3-0.1.0.jar
         - [[信息统计]Tellme](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.9.0-alpha.1
         - [[加速火把]Torcherino](https://www.curseforge.com/minecraft/mc-mods/torcherino) version 2.12.69+1.16.2

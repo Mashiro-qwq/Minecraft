@@ -21,7 +21,6 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.10+1.17
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
-        - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 1.17@5124e89-fabric
         - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+rev.932f152
         - [[R键整理]Inventory Profiles](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles) version 1.16.2-0.4.2
         - [[便捷操作]Item Scroller](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.15.0-dev.20200912.221805
@@ -36,6 +35,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version fabric-mc1.17-0.2.0+build.388
         - [[信息统计]Tellme](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.9.0-alpha.1
         - [[技巧操作]Tweakeroo](https://masa.dy.fi/tmp/minecraft/mods/client_mods) version 1.16.3-0.10.0-dev.20201004.191811
+        - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 1.17@5124e89-fabric
     - 集成的资源包
         - Masa_汉化资源包_V1.2.6-1.13~1.16
         - XeKr 方纹淡彩16~17plus2.3

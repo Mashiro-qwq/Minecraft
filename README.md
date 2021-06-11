@@ -15,7 +15,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
 - ~~纯净生存整合包 [minecraft_1.17]()~~ <font color=#FF0000> 未更新 </font>
     - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
         - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version 1.0.11
-        - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.0
+        - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3
         - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 0.34.9-1.10.1
         - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.10+1.17
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
@@ -34,7 +34,6 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version 0.7.2+build.12
         - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version mc1.16.3-0.1.0.jar
         - [[信息统计]Tellme](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.9.0-alpha.1
-        - [[加速火把]Torcherino](https://www.curseforge.com/minecraft/mc-mods/torcherino) version 2.12.69+1.16.2
         - [[技巧操作]Tweakeroo](https://masa.dy.fi/tmp/minecraft/mods/client_mods) version 1.16.3-0.10.0-dev.20201004.191811
     - 集成的资源包
         - Masa_汉化资源包_V1.2.6-1.13~1.16

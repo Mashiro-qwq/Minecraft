@@ -21,7 +21,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.10+1.17
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
-        - [[目标显示]Hwyla](https://www.curseforge.com/minecraft/mc-mods/hwyla) version 1.16.2-1.9.23-79
+        - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 1.17@5124e89-fabric
         - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+rev.932f152
         - [[R键整理]Inventory Profiles](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles) version 1.16.2-0.4.2
         - [[便捷操作]Item Scroller](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.15.0-dev.20200912.221805

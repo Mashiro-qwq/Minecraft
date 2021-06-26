@@ -12,7 +12,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
 # 使用的文件 #
 
 - 服务端文件 [server_1.17](https://fubuki.lanzoui.com/iMJ90pzsgih)
-- ~~纯净生存整合包 [minecraft_1.17]()~~ <font color=#FF0000> 未更新 </font>
+- 纯净生存整合包 ~~[minecraft_1.17](https://github.com/Mashiro-qwq/Minecraft/releases)~~ <font color=#FF0000> 未更新 </font>
     - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
         - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version mc1.17-2.0.0
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17

@@ -14,25 +14,25 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
 - 服务端文件 [server_1.17](https://fubuki.lanzoui.com/iMJ90pzsgih)
 - ~~纯净生存整合包 [minecraft_1.17]()~~ <font color=#FF0000> 未更新 </font>
     - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
-        - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version 1.0.11
+        - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version mc1.17-2.0.0
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
         - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 1.17-fabric0.34.9-1.10.1
-        - [[箱子渲染优化]Enhanced Block Entities](https://github.com/FoundationGames/EnhancedBlockEntities) version 0.3.1--1.16.x
-        - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.34.10+1.17
+        - [[箱子渲染优化]Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) version 0.3.1--1.16.x
+        - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.36.0+1.17
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
-        - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+rev.932f152
-        - [[R键整理]Inventory Profiles](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles) version 1.16.2-0.4.2
+        - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+rev.341c70b
+        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-0.7.4
         - [[便捷操作]Item Scroller](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.15.0-dev.20200912.221805
         - [[投影]Litematica](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.0.0-dev.20200920.161640
-        - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version fabric-mc1.17-0.7.0
+        - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version fabric-mc1.17-0.7.2
         - [[masa运行库]MaLiLib](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.10.0-dev.21+arne.1
-        - [[masa中文搜索优化]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.16.1-1.0.4-alpha.1
-        - [[迷你信息]MiniHUD](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.19.0-dev.20200928.220110
+        - [[masa中文搜索优化]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17-1.1.6
+        - [[迷你信息]MiniHUD](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.17.0-0.19.0-dev.20210624.161216
         - [[优化前置]MixinBootstrap](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap) version 1.0.4
-        - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.0-beta.7
+        - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.2
         - [[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version fabric-mc1.16.3-0.7.2+build.12
-        - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version fabric-mc1.17-0.2.0+build.388
+        - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version mc1.17-0.3.0+build.431
         - [[信息统计]Tellme](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.9.0-alpha.1
         - [[技巧操作]Tweakeroo](https://masa.dy.fi/tmp/minecraft/mods/client_mods) version 1.16.3-0.10.0-dev.20201004.191811
         - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 1.17@5124e89-fabric

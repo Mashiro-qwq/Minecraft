@@ -38,11 +38,11 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
         - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 1.17@5124e89-fabric
     - 集成的资源包
         - [Masa 汉化资源包V1.3a -1.17](https://law4x.lanzoui.com/b01hh442b) 密码:law4x
-        - [Xekr显示资源包](https://xekr.lanzoui.com/b01bn74zc) 密码:d6dn
+        - [Xekr显示资源包](https://xekr.lanzoui.com/b01bn74zc) 密码:d6dn [原帖地址](https://www.mcbbs.net/thread-823957-1-1.html)
             - XeKr 方纹淡彩1.17plus2.4
             - XeKr 模型包1.17for2.4
             - XeKr 原版红石显示1.17-V1
-        - [1.17洞穴更新预览数据包](https://launcher.mojang.com/v1/objects/622bf0fd298e1e164ecd05d866045ed5941283cf/CavesAndCliffsPreview.zip)
+        - [1.17洞穴更新预览数据包](https://fubuki.lanzoui.com/i66Repzsgji)
 
 # Minecraft Java Edition Version 1.17 更新日志 #
 

@@ -7,12 +7,12 @@
 > 本服务器版本始终与 Minecraft 最新发布版本/每周快照版本保持同步 (预计每周三晚12点进行停机维护更新)
 
 <span style="font-size: 15px"><span style="color: rgb(24, 218, 100)">
-Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Update Time : 2021/06/09 21:39:41
+Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">Update Time : 2021/07/17 02:19:56
 
 # 使用的文件 #
 
-- 服务端文件 [server_1.17](https://fubuki.lanzoui.com/iMJ90pzsgih)
-- 纯净生存整合包 ~~[minecraft_1.17](https://github.com/Mashiro-qwq/Minecraft/releases)~~ <font color=#FF0000> 未更新 </font>
+- 服务端文件 [server_1.17.1](https://fubuki.lanzoui.com/iyHbwriunqj)
+- 纯净生存整合包 ~~[minecraft_1.17.1](https://github.com/Mashiro-qwq/Minecraft/releases)~~ <font color=#FF0000> 未更新 </font>
     - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
         - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version mc1.17-2.0.0
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
@@ -42,7 +42,7 @@ Network Minecraft Server Version: 1.17 <span style="color: rgb(255, 20, 147)">Up
             - XeKr 方纹淡彩1.17plus2.4
             - XeKr 模型包1.17for2.4
             - XeKr 原版红石显示1.17-V1
-        - [1.17洞穴更新预览数据包](https://fubuki.lanzoui.com/i66Repzsgji)
+        - [1.17洞穴更新预览数据包](https://fubuki.lanzoui.com/iFP3Friunwf)
 
 # Minecraft Java Edition Version 1.17 更新日志 #
 

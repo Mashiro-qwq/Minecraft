@@ -6,6 +6,7 @@
 
 > 本服务器版本始终与 Minecraft 最新发布版本/每周快照版本保持同步 (预计每周三晚12点进行停机维护更新)
 
+
 <span style="font-size: 15px"><span style="color: rgb(24, 218, 100)">
 Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">Update Time : 2021/07/17 02:19:56
 

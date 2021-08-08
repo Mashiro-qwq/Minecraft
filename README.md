@@ -6,7 +6,6 @@
 
 > 本服务器版本始终与 Minecraft 最新发布版本/每周快照版本保持同步 (预计每周三晚12点进行停机维护更新)
 
-
 <span style="font-size: 15px"><span style="color: rgb(24, 218, 100)">
 Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">Update Time : 2021/07/17 02:19:56
 
@@ -46,6 +45,8 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [1.17洞穴更新预览数据包](https://fubuki.lanzoui.com/iFP3Friunwf)
 
 # Minecraft Java Edition Version 1.17 更新日志 #
+
+---
 
 ## 新内容 ##
 
@@ -688,7 +689,7 @@ NBT格式
 辅助功能
 
 - 加入了纯黑背景的Mojang Studios加载页面，可以通过辅助功能内的“黑白徽标”选项来选择是否使用。
-![](https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/c5/Monochrome_Mojang_Studios_Logo.png/revision/latest/scale-to-width-down/180?cb=20210331175326)
+<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/c5/Monochrome_Mojang_Studios_Logo.png" width="256">
 
 材料
 
@@ -783,13 +784,13 @@ NBT格式
 
     |名称|旧材质|新材质|深层变种材质|
     |:-:|:-:|:-:|:-:|
-    |煤矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/d/d6/Coal_Ore_JE2_BE2.png/revision/latest?cb=20200612160325&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/48/Coal_Ore_JE5_BE4.png/revision/latest?cb=20210312114754&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/0/0b/Deepslate_Coal_Ore_JE1_BE2.png/revision/latest?cb=20210310225348&format=original" width="100">|
-    |铁矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/0/0c/Iron_Ore_JE3.png/revision/latest?cb=20200612163003&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/1/19/Iron_Ore_JE6_BE4.png/revision/latest?cb=20210311020227&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/48/Deepslate_Iron_Ore_JE2_BE1.png/revision/latest?cb=20210311020221&format=original" width="100">|
-    |金矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b9/Gold_Ore_JE3_BE2.png/revision/latest?cb=20200612162202&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/1/18/Gold_Ore_JE7_BE4.png/revision/latest?cb=20210414232612&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/1/1d/Deepslate_Gold_Ore_JE2_BE1.png/revision/latest?cb=20210311020219&format=original" width="100">|
-    |红石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3e/Redstone_Ore_JE2_BE2.png/revision/latest?cb=20200612170247" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/cd/Redstone_Ore_JE4_BE3.png/revision/latest?cb=20210225132553&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/7/70/Deepslate_Redstone_Ore_JE2_BE1.png/revision/latest?cb=20210311020214&format=original" width="100">|
-    |绿宝石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/5/59/Emerald_Ore_JE2_BE2.png/revision/latest?cb=20200612161402&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3b/Emerald_Ore_JE3_BE3.png/revision/latest?cb=20210225133147" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/9c/Deepslate_Emerald_Ore_JE1_BE1.png/revision/latest?cb=20210310223010&format=original" width="100">|
-    |青金石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/ce/Lapis_Lazuli_Ore_JE2_BE2.png/revision/latest?cb=20200612163235&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/e/ea/Lapis_Lazuli_Ore_JE4_BE4.png/revision/latest?cb=20210414232624&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/94/Deepslate_Lapis_Lazuli_Ore_JE3_BE2.png/revision/latest?cb=20210414232744&format=original" width="100">|
-    |钻石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b5/Diamond_Ore_JE3_BE3.png/revision/latest?cb=20200612161212&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/2/29/Diamond_Ore_JE5_BE5.png/revision/latest?cb=20210311020223&format=original" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/7/73/Deepslate_Diamond_Ore_JE2_BE1.png/revision/latest?cb=20210311020216&format=original" width="100">|
+    |煤矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/d/d6/Coal_Ore_JE2_BE2.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/48/Coal_Ore_JE5_BE4.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/0/0b/Deepslate_Coal_Ore_JE1_BE2.png" width="100">|
+    |铁矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/0/0c/Iron_Ore_JE3.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/1/19/Iron_Ore_JE6_BE4.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/48/Deepslate_Iron_Ore_JE2_BE1.png" width="100">|
+    |金矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b9/Gold_Ore_JE3_BE2.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/1/18/Gold_Ore_JE7_BE4.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/1/1d/Deepslate_Gold_Ore_JE2_BE1.png" width="100">|
+    |红石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3e/Redstone_Ore_JE2_BE2.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/cd/Redstone_Ore_JE4_BE3.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/7/70/Deepslate_Redstone_Ore_JE2_BE1.png" width="100">|
+    |绿宝石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/5/59/Emerald_Ore_JE2_BE2.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3b/Emerald_Ore_JE3_BE3.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/9c/Deepslate_Emerald_Ore_JE1_BE1.png" width="100">|
+    |青金石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/ce/Lapis_Lazuli_Ore_JE2_BE2.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/e/ea/Lapis_Lazuli_Ore_JE4_BE4.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/94/Deepslate_Lapis_Lazuli_Ore_JE3_BE2.png" width="100">|
+    |钻石矿石|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b5/Diamond_Ore_JE3_BE3.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/2/29/Diamond_Ore_JE5_BE5.png" width="100">|<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/7/73/Deepslate_Diamond_Ore_JE2_BE1.png" width="100">|
 
 酿造台
 
@@ -827,11 +828,11 @@ NBT格式
 
 时钟
 
-- 材质从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/c2/Clock_JE2_BE2.gif/revision/latest?cb=20210131053441&format=original" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3e/Clock_JE3_BE3.gif/revision/latest?cb=20201126023920&format=original" width="32">。现在其金质部分的颜色与材质更新后的其他金质物件材质的颜色更匹配了。
+- 材质从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/c/c2/Clock_JE2_BE2.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3e/Clock_JE3_BE3.gif" width="32">。现在其金质部分的颜色与材质更新后的其他金质物件材质的颜色更匹配了。
 
 指南针和磁石指针
 
-- 材质分别从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/97/Compass_JE2_BE2.gif/revision/latest?cb=20200110065724&format=original" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b3/Compass_JE3_BE3.gif/revision/latest?cb=20201126025754&format=original" width="32">，<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/6/61/Invicon_Lodestone_Compass.gif/revision/latest?cb=20210609064652&format=original" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/d/da/Lodestone_Compass_JE2.gif/revision/latest?cb=20201126134612&format=original" width="32">。现在其铁质部分的颜色与材质更新后的其他铁质物件材质的颜色更匹配了。
+- 材质分别从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/97/Compass_JE2_BE2.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b3/Compass_JE3_BE3.gif" width="32">，<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/6/61/Invicon_Lodestone_Compass.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/d/da/Lodestone_Compass_JE2.gif" width="32">。现在其铁质部分的颜色与材质更新后的其他铁质物件材质的颜色更匹配了。
 
 河豚
 
@@ -843,11 +844,11 @@ NBT格式
 
 丛林木门
 
-- 物品材质从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/e/e3/Jungle_Door_%28item%29_JE3_BE1.png/revision/latest?cb=20200623095706&format=original" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/39/Jungle_Door_%28item%29_JE4_BE2.png/revision/latest?cb=20210318110429&format=original" width="32">，使之正确匹配其方块形式在材质更新后的材质。
+- 物品材质从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/e/e3/Jungle_Door_%28item%29_JE3_BE1.png" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/39/Jungle_Door_%28item%29_JE4_BE2.png" width="32">，使之正确匹配其方块形式在材质更新后的材质。
 
 甘蔗
 
-- 物品材质从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/0/00/Sugar_Cane_%28item%29_JE2_BE2.png/revision/latest?cb=20190901201800&format=original" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3a/Sugar_Cane_%28item%29_JE3_BE3.png/revision/latest?cb=20210318111256&format=original" width="32">，使其颜色正确匹配其方块形式被生物群系“着色”后的材质。
+- 物品材质从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/0/00/Sugar_Cane_%28item%29_JE2_BE2.png" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/3/3a/Sugar_Cane_%28item%29_JE3_BE3.png" width="32">，使其颜色正确匹配其方块形式被生物群系“着色”后的材质。
 
 皮革盔甲
 

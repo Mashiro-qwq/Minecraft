@@ -58,7 +58,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 
 语言
 
-- 加入了文言文[^1]。
+- 加入了文言文<sup id="a1">[[1]](#f1)</sup>。
 
 死亡信息
 
@@ -116,7 +116,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 
 语言
 
-- 移除了马恩岛语、西西里语[^2]和士瓦本德语[^3]，因为这些语言的翻译尚未完善。
+- 移除了马恩岛语、西西里语<sup id="a2">[[2]](#f2)</sup>和士瓦本德语<sup id="a3">[[3]](#f3)</sup>，因为这些语言的翻译尚未完善。
 
 日志
 
@@ -180,9 +180,15 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 
 - 与铁砧有关的复制漏洞。
 
-[^1]:19w34a及后续版本均可用。
-[^2]:同时移除了1.15和1.16资源文件中的此语言。
-[^3]:同时移除了1.15资源文件中的此语言。
+### 注释 ###
+
+---
+
+<span id="f1">1. [^](#a1)</span> 19w34a及后续版本均可用。
+
+<span id="f2">2. [^](#a2)</span> 同时移除了1.15和1.16资源文件中的此语言。
+
+<span id="f3">3. [^](#a3)</span> 同时移除了1.15资源文件中的此语言。
 
 # Minecraft Java Edition Version 1.17 更新日志 #
 

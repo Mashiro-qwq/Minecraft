@@ -14,35 +14,36 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 - 服务端文件 [server_1.17.1](https://fubuki.lanzoui.com/iyHbwriunqj)
 - 纯净生存整合包 ~~[minecraft_1.17.1](https://github.com/Mashiro-qwq/Minecraft/releases)~~ <font color=#FF0000> 未更新 </font>
     - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
-        - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version mc1.17-2.0.0
+        - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version mc1.17-2.1.3
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
-        - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 1.17-fabric0.34.9-1.10.1
-        - [[箱子渲染优化]Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) version 0.3.1--1.16.x
-        - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.36.0+1.17
-        - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17-1.4.40+v210608
+        - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 1.17.1-fabric0.36.1-1.10.1
+        - [[箱子渲染优化]Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) version 0.4.1+1.17
+        - [[fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.37.2+1.17
+        - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17.1-1.4.45+v210811
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
-        - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+rev.341c70b
-        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-0.7.4
-        - [[便捷操作]Item Scroller](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.15.0-dev.20200912.221805
-        - [[投影]Litematica](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.0.0-dev.20200920.161640
-        - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version fabric-mc1.17-0.7.2
-        - [[masa运行库]MaLiLib](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.10.0-dev.21+arne.1
+        - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+mc1.17.1
+        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-0.8.6
+        - [[便捷操作]Item Scroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller) version 1.17.1-0.15.0-dev.20210707.005506
+        - [[投影]Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) version 1.17.1-0.0.0-dev.20210713.103711
+        - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version mc1.17.1-0.7.3
+        - [[masa运行库]MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib) version 1.17.1-0.10.0-dev.24
         - [[masa中文搜索优化]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17-1.1.6
-        - [[迷你信息]MiniHUD](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.17.0-0.19.0-dev.20210624.161216
-        - [[优化前置]MixinBootstrap](https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap) version 1.0.4
-        - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.2
-        - [[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version fabric-mc1.16.3-0.7.2+build.12
-        - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version mc1.17-0.3.0+build.431
-        - [[信息统计]Tellme](https://masa.dy.fi/tmp/minecraft/mods/client_mods/) version 1.16.3-0.9.0-alpha.1
-        - [[技巧操作]Tweakeroo](https://masa.dy.fi/tmp/minecraft/mods/client_mods) version 1.16.3-0.10.0-dev.20201004.191811
-        - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 1.17@5124e89-fabric
+        - [[迷你信息]MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) version 1.17.1-0.19.0-dev.20210707.150016
+        - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.4
+        - ~~[[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version fabric-mc1.16.3-0.7.2+build.12~~ <font color=#FF0000> 未更新 </font>
+        - [[钠-优化]Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) version extra-mc1.17.1-0.3.3
+        - [[光效优化]Starlight](https://github.com/Tuinity/Starlight) version 1.0.0-RC3+fabric.1.17.x
+        - ~~[[信息统计]Tellme](https://www.curseforge.com/minecraft/mc-mods/tellme) version 1.16.3-0.9.0-alpha.1~~ <font color=#FF0000> 未更新 </font>
+        - [[技巧操作]Tweakeroo](https://www.curseforge.com/minecraft/mc-mods/tweakeroo) version 1.17.1-0.10.0-dev.20210710.155746
+        - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 3.8.1
+
     - 集成的资源包
-        - [Masa 汉化资源包V1.3a -1.17](https://law4x.lanzoui.com/b01hh442b) 密码:law4x
+        - [Masa 汉化资源包V2c [1.12-1.17]](https://law4x.lanzoui.com/b01hh442b) 密码:law4x
         - [Xekr显示资源包](https://xekr.lanzoui.com/b01bn74zc) 密码:d6dn [原帖地址](https://www.mcbbs.net/thread-823957-1-1.html)
             - XeKr 方纹淡彩1.17plus2.4
             - XeKr 模型包1.17for2.4
             - XeKr 原版红石显示1.17-V1
-        - [1.17洞穴更新预览数据包](https://fubuki.lanzoui.com/iFP3Friunwf)
+        - [1.17.1洞穴更新预览数据包](https://fubuki.lanzoui.com/iFP3Friunwf)
 
 # Minecraft Java Edition Version 1.17 更新日志 #
 

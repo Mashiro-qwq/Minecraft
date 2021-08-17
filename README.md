@@ -46,6 +46,144 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
             - XeKr 原版红石显示1.17-V1
         - [1.17.1洞穴更新预览数据包](https://fubuki.lanzoui.com/iFP3Friunwf)
 
+# Minecraft Java Edition Version 1.17.1 更新日志 #
+
+---
+
+## 新内容 ##
+
+---
+
+### 常规 ###
+
+语言
+
+- 加入了文言文[^1]。
+
+死亡信息
+
+- 为一些水生生物添加了2条死亡信息：
+    - [死者]因脱水而死
+    - [死者]在试图逃离[实体]时因脱水而死
+
+## 更改 ##
+
+---
+
+### 方块 ###
+
+炼药锅
+
+- 将降雪时填充细雪的速度提高为原来的2倍。
+
+### 方块 ###
+
+望远镜
+
+- 调整了手持模型的纹理。
+    - 现在其后侧会显示紫水晶镜片的纹理，而不是之前的铜质纹理。
+
+### 生物 ###
+
+美西螈
+
+- 蓝色美西螈现在只能通过繁殖生成。
+
+溺尸
+
+- 将铜锭的掉落几率由5%提升至11%，每级抢夺魔咒提高的掉落几率由1%提升至2%，与基岩版相匹配。
+
+山羊
+
+- 现在繁殖普通山羊有2%的几率产下尖叫山羊。
+- 山羊身上的状态效果现在也会在其跳跃和冲撞时生效。
+
+僵尸、僵尸村民、尸壳和溺尸
+
+- 不再捡起荧光墨囊。
+
+## 常规 ##
+
+协议
+
+- 服务器地址为SRV记录时，握手包中“地址”和“端口”字段的填充方法被回退到了1.17前的方式。
+    - 现在，SRV记录实际指向的服务器地址和端口会被填充到这两个字段中，而不是把“服务器地址”所填内容和25565分别填入这两个字段中。
+
+字体
+
+- 加入了一些新字符，包含一些货币符号和一些新表情。
+    - 新字符包括：✂🍖🪣🔔⏳⚑₠₡₢₣₤₥₦₩₫₭₮₰₱₲₳₵₶₷₸₹₺₻₼₿。
+
+语言
+
+- 移除了马恩岛语、西西里语[^2]和士瓦本德语[^3]，因为这些语言的翻译尚未完善。
+
+日志
+
+- 现在当被命名过的生物死亡时，其死亡信息会被记录到日志中。
+
+## 修复 ##
+
+---
+
+### 修复了43个漏洞 ###
+
+1.17前正式版的漏洞
+
+- [MC-123654](https://bugs.mojang.com/browse/MC-123654) - 渲染距离小于4时，日月或云层不显示。
+- [MC-131290](https://bugs.mojang.com/browse/MC-131290) - 附魔等级按短整型保存，但在加载和实际使用时用的是整型。
+- [MC-156155](https://bugs.mojang.com/browse/MC-156155) - 土耳其里拉的符号₺在游戏内会被显示成□。
+- [MC-194736](https://bugs.mojang.com/browse/MC-194736) - ` U+00B7 ` 字符有重复文本映射。
+- [MC-196999](https://bugs.mojang.com/browse/MC-196999) - ` U+1FEC ` 字符在Minecraft的字体中有误。
+- [MC-223350](https://bugs.mojang.com/browse/MC-223350) - 除非玩家微微移动视角，否则已加载的区块有时会不显示。
+- [MC-224894](https://bugs.mojang.com/browse/MC-224894) - ` light ` ticket被释放得过早。
+
+1.17的漏洞
+
+- [MC-213986](https://bugs.mojang.com/browse/MC-213986) - 利用活塞和发射器使用细雪时，可以产生幽灵方块。
+- [MC-219018](https://bugs.mojang.com/browse/MC-219018) - 使用 ` /item ` 命令可以产生幽灵物品（服务端不能正确更新客户端物品栏）。
+- [MC-219290](https://bugs.mojang.com/browse/MC-219290) - 方解石的声音要比其他方块小得多。
+- [MC-221656](https://bugs.mojang.com/browse/MC-221656) - 创造模式获得的美西螈桶或热带鱼桶只能放出一种美西螈或热带鱼。
+- [MC-222731](https://bugs.mojang.com/browse/MC-222731) - 被桶捕捉过的美西螈会反复尝试离开水。
+- [MC-223368](https://bugs.mojang.com/browse/MC-223368) - 力量药水、虚弱药水和自定义攻击伤害的属性都不能改变从山羊处受到的伤害值。
+- [MC-225816](https://bugs.mojang.com/browse/MC-225816) - 掉落物形式的垂根看起来很大。
+- [MC-226461](https://bugs.mojang.com/browse/MC-226461) - 熔岩湖附近的原木可以被替换为石头。
+- [MC-226505](https://bugs.mojang.com/browse/MC-226505) - 跳跃提升效果不能影响山羊的跳远距离。
+- [MC-226512](https://bugs.mojang.com/browse/MC-226512) - 山羊冲撞实体时，其造成的伤害不使用其持有物品的伤害值。
+- [MC-226926](https://bugs.mojang.com/browse/MC-226926) - 绿宝石矿石生成过多。
+- [MC-226948](https://bugs.mojang.com/browse/MC-226948) - 凋灵会受到药水效果的影响。
+- [MC-227387](https://bugs.mojang.com/browse/MC-227387) - 包含世界生成设置的数据包可能会使游戏崩溃或软锁。
+- [MC-227435](https://bugs.mojang.com/browse/MC-227435) - 在服务器上放置一个不存在玩家的头颅时会有卡顿。
+- [MC-227483](https://bugs.mojang.com/browse/MC-227483) - ` root_system ` 地物配置的编解码器使用了错误的字段。
+- [MC-227520](https://bugs.mojang.com/browse/MC-227520) - 主世界化石总是在基岩层生成。
+- [MC-227557](https://bugs.mojang.com/browse/MC-227557) - 转换世界后，末地传送门纹理出现拉伸。
+- [MC-227618](https://bugs.mojang.com/browse/MC-227618) - 在高海草上使用小型垂滴叶时，小型垂滴叶被消耗，但并未成功放置。
+- [MC-227651](https://bugs.mojang.com/browse/MC-227651) - 熔炉和高炉的青金石矿石熔炼配方名称有误。
+- [MC-227821](https://bugs.mojang.com/browse/MC-227821) - 删除Realms服务器后马上创建或编辑另一个服务器会导致客户端崩溃。
+- [MC-227891](https://bugs.mojang.com/browse/MC-227891) - 玩家退出服务器时，末影珍珠会消失。
+- [MC-228219](https://bugs.mojang.com/browse/MC-228219) - 进入返回传送门时，投掷出的末影珍珠会消失。
+- [MC-228343](https://bugs.mojang.com/browse/MC-228343) - 当找不到 ` random_selector ` 的默认地物时，会抛出 ` java.lang.NullPointerException ` 异常。
+- [MC-228430](https://bugs.mojang.com/browse/MC-228430) - 启动游戏时会卡在加载界面很长时间（由OSHI导致的“添加PDH计数器失败”错误）。
+- [MC-228599](https://bugs.mojang.com/browse/MC-228599) - 玩家尝试走过流动水时，姿态会一直在直立和游泳间切换。
+- [MC-228802](https://bugs.mojang.com/browse/MC-228802) - 服务器上不加载区块/不能调用 ` cmq.a(int, int, int) ` 方法，因为☃为空。
+- [MC-228828](https://bugs.mojang.com/browse/MC-228828) - 指定了 ` --server ` 时启动游戏，游戏会崩溃。
+- [MC-228858](https://bugs.mojang.com/browse/MC-228858) - 被拴住且被命名过的美西螈会消失。
+- [MC-229169](https://bugs.mojang.com/browse/MC-229169) - 猪灵不再能在墙后听到玩家破坏受其所保护的方块的声音。
+- [MC-229191](https://bugs.mojang.com/browse/MC-229191) - 1.16.5到1.17间，钻石矿石的分布有变化。
+- [MC-229246](https://bugs.mojang.com/browse/MC-229246) - 在墙后攻击猪灵和猪灵蛮兵时，它们不会引来援兵。
+- [MC-229299](https://bugs.mojang.com/browse/MC-229299) - 蓝色美西螈会自然生成。
+- [MC-229441](https://bugs.mojang.com/browse/MC-229441) - 村民与玩家交易时，其手持的物品会在死亡时掉落。
+- [MC-229614](https://bugs.mojang.com/browse/MC-229614) - 从流浪商人处获得的热带鱼桶只能放出白色石首类变种。
+- [MC-230716](https://bugs.mojang.com/browse/MC-230716) - ` death.attack.dryout和death.attack.dryout.player ` 显示的是原始字符串，而没有被翻译。
+
+其他漏洞
+
+- 与铁砧有关的复制漏洞。
+
+[^1]:19w34a及后续版本均可用。
+[^2]:同时移除了1.15和1.16资源文件中的此语言。
+[^3]:同时移除了1.15资源文件中的此语言。
+
 # Minecraft Java Edition Version 1.17 更新日志 #
 
 ---

@@ -13,7 +13,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 
 - 服务端文件 [server_1.17.1](https://fubuki.lanzoui.com/iyHbwriunqj)
 - 纯净生存整合包 ~~[minecraft_1.17.1](https://github.com/Mashiro-qwq/Minecraft/releases)~~ <font color=#FF0000> 未更新 </font>
-    - 集成的MOD (基于[Fabric](https://fabricmc.net/)加载器 version 0.7.3 )
+    - 集成的MOD ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 0.7.4 和 [Iris](https://irisshaders.net/) 光影着色器 version 2.0.0 )
         - [[饥饿显示]Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin) version mc1.17-2.1.3
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
         - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 1.17.1-fabric0.36.1-1.10.1
@@ -23,6 +23,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
         - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.0+mc1.17.1
         - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-0.8.6
+        - [[Iris光影着色器]Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) version 1.1.1
         - [[便捷操作]Item Scroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller) version 1.17.1-0.15.0-dev.20210707.005506
         - [[投影]Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) version 1.17.1-0.0.0-dev.20210713.103711
         - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version mc1.17.1-0.7.3

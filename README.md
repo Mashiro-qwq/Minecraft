@@ -40,7 +40,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 3.8.1
 
     - 集成的资源包
-        - [Masa 汉化资源包V2c [1.12-1.17]](https://law4x.lanzoui.com/b01hh442b) 密码:law4x
+        - [Masa 汉化资源包V2e [1.12-1.17]](https://law4x.lanzoui.com/b01hh442b) 密码:law4x
         - [Xekr显示资源包](https://xekr.lanzoui.com/b01bn74zc) 密码:d6dn [原帖地址](https://www.mcbbs.net/thread-823957-1-1.html)
             - XeKr 方纹淡彩1.17plus2.4
             - XeKr 模型包1.17for2.4

@@ -28,7 +28,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[投影]Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) version 1.17.1-0.0.0-dev.20210713.103711
         - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version mc1.17.1-0.7.3
         - [[masa运行库]MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib) version 1.17.1-0.10.0-dev.24
-        - [[masa中文搜索优化]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17-1.1.6
+        - [[masa中文搜索优化]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17.1-2.0.2
         - [[迷你信息]MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) version 1.17.1-0.19.0-dev.20210707.150016
         - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.4
         - ~~[[磷-优化]Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) version fabric-mc1.16.3-0.7.2+build.12~~ <font color=#FF0000> 未更新 </font>

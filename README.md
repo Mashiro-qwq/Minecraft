@@ -31,6 +31,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[masa附加]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17.1-2.0.5
         - [[迷你信息]MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) version 1.17.1-0.19.0-dev.20210707.150016
         - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.14
+        - [[粒子雨]Particle Rain](https://www.curseforge.com/minecraft/mc-mods/particle-rain) version 1.5.0
         - [[回放]Replay](https://www.replaymod.com/) version 1.17.1-2.6.1
         - [[钠-附加]Sodium Extra](https://modrinth.com/mod/sodium-extra) version 0.3.5
         - [[星光-光照优化]Starlight](https://github.com/Tuinity/Starlight) version 1.0.0+fabric.73f6d37

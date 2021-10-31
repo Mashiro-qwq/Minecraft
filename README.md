@@ -9,6 +9,8 @@
 <span style="font-size: 15px"><span style="color: rgb(24, 218, 100)">
 Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">Update Time : 2021/10/16 23:24:05
 
+## [如何搭建 Minecraft 服务器](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md) ##
+
 # 使用的文件 #
 
 - 服务端文件 [server_1.17.1](https://fubuki.lanzoui.com/iyHbwriunqj)

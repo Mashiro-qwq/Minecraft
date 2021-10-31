@@ -14,7 +14,7 @@ sudo apt update && sudo apt upgrade -y
 java -version
 ```
 
-如果返回版本信息请跳至 [#2](#)
+如果返回版本信息请跳至 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/Build.md#2-%E5%AE%89%E8%A3%85minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF)
 
 例如我的java版本如下
 
@@ -570,10 +570,10 @@ rm -rf .fabric/ .mixin.out/ mods/ fabric-installer-0.8.3.jar  fabric-server-laun
 # Fabric安装器没有更新的话不需要删除,版本更新后mod也需要升级到对应版本所以删除mod文件夹
 ```
 
-重复 [#2](#) 安装新版本Minecraft服务端
+重复 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/Build.md#2-%E5%AE%89%E8%A3%85minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF) 安装新版本Minecraft服务端
 
 别忘了顺手修改 `fabric-server-launcher.properties` 文件 将 `server=` 后面修改为你更新的服务端程序名
 
-重复 [#3](#) 安装新版本Fabric
+重复 [#3](https://github.com/Mashiro-qwq/Minecraft/blob/main/Build.md#3-%E7%BB%99%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%89%E8%A3%85fabric) 安装新版本Fabric
 
 至此服务端完全安装完毕 Enjoy!!!

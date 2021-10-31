@@ -80,7 +80,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 
 - 将降雪时填充细雪的速度提高为原来的2倍。
 
-### 方块 ###
+### 物品 ###
 
 望远镜
 

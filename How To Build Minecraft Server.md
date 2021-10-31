@@ -32,7 +32,7 @@ OpenJDK 64-Bit Server VM (build 17.0.1+12-39, mixed mode, sharing)
 sudo apt install default-jdk -y
 ```
 
-2 使用
+2 手动安装jdk
 
 openjdk最新发布版是 17.0.1
 

@@ -96,21 +96,30 @@ javac 17.0.1
 
 ## #2 安装Minecraft服务端 ##
 
-- 创建一个文件夹并下载服务端文件
+- 创建目录
+
+更新 Minecraft 版本跳过此步骤
 
 ```bash
-mkdir 1.17 # 文件夹名字随便取
-cd 1.17
-wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar -O server_1.17.1.jar # 个人喜好原因修改文件名方便管理,虽然之后要改一些东西
+mkdir 1.17 && cd 1.17
 ```
 
-- 第一次运行服务端程序
+- 下载服务端文件
+
+个人喜好原因修改文件名方便管理,虽然之后要改一些东西
+
+```
+wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar -O server_1.17.1.jar
+```
+
+第一次运行服务端程序
 
 ```java
 java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 ```
 
-此时会运行一下就退出,不要慌,是正常现象  
+此时会运行一下就退出,不要慌,是正常现象
+
 查看目录中eula.txt文件同意服务条款
 
 ```bash
@@ -562,12 +571,10 @@ java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 cp -R /root/1.17 /root/1.17_bak
 ```
 
-升级前删除旧版本文件<font color=#FF0000> \*每次更新都需要删除Fabric文件并重新安装fabric</font>
+升级前删除旧版本文件,Fabric安装器没有更新的话不需要删除,版本更新后mod也需要升级到对应版本所以需要删除mod文件夹
 
 ```bash
 rm -rf .fabric/ .mixin.out/ mods/ fabric-installer-0.8.3.jar  fabric-server-launch.jar 
-
-# Fabric安装器没有更新的话不需要删除,版本更新后mod也需要升级到对应版本所以删除mod文件夹
 ```
 
 重复 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#2-%E5%AE%89%E8%A3%85minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF) 安装新版本Minecraft服务端

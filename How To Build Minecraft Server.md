@@ -44,7 +44,7 @@ curl -O https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888a
 
 - 安装openjdk
 
-进入服务器你存放openjdk包的目录,执行以下命令
+解压
 
 ```bash
 tar xvf openjdk-17.0.1_linux-x64_bin.tar.gz

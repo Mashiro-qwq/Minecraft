@@ -34,8 +34,6 @@ sudo apt install default-jdk -y
 
 2 手动安装jdk
 
-openjdk最新发布版是 17.0.1
-
 - 下载 openjdk17 最新release包
 
 ```bash
@@ -98,7 +96,7 @@ javac 17.0.1
 
 - 创建目录
 
-更新 Minecraft 版本跳过此步骤
+更新 Minecraft 服务端版本跳过此步骤
 
 ```bash
 mkdir 1.17 && cd 1.17
@@ -133,14 +131,14 @@ vim eula.txt
 java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 ```
 
-这时服务端会进行初始化,并创建游戏世界存,等待加载完毕提示 `Done (x.xxxs)! For help, type "help"`
+这时服务端会进行初始化,并创建游戏世界,等待加载完毕提示 `Done (x.xxxs)! For help, type "help"`
 
 此时,输入 `stop` 关闭服务端,此时查看文件夹内多了很多文件
 
 接下来需要对服务器进行详细的配置
 
 ```bash
-vi server.properties
+vim server.properties
 ```
 
 具体配置信息可参考下值修改

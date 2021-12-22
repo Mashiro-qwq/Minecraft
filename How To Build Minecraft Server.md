@@ -2,13 +2,13 @@
 
 ## #1 安装Java运行环境 ##
 
- - 首先检查当前所有软件版本是否最新
+ - 刷新安装缓存并更新软件包
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
- - 然后检查一下当前是否有Java运行环境
+ - 检查当前是否有Java运行环境
 
 ```bash
 java -version
@@ -34,7 +34,7 @@ sudo apt install default-jdk -y
 
 2 手动安装jdk
 
-- 下载 openjdk17 最新release包
+- 下载 openjdk 最新release包
 
 ```bash
 curl -O https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz
@@ -63,7 +63,7 @@ export PATH=\$PATH:\$JAVA_HOME/bin
 EOF
 ```
 
-更新配置文件并检查Java命令
+更新配置文件
 
 ```bash
 source /etc/profile.d/jdk17.0.1.sh
@@ -118,13 +118,13 @@ java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 
 此时会运行一下就退出,不要慌,是正常现象
 
-查看目录中eula.txt文件同意服务条款
+查看目录中 `eula.txt` 文件同意服务条款
 
 ```bash
 vim eula.txt
 ```
 
-最后一行 `eula=false` 将 `false` 改为 `true`
+最后一行将 `false` 改为 `true`
 
 - 第二次运行服务端程序
 ```java
@@ -441,7 +441,7 @@ vim server.properties
 sudo apt install screen -y
 ```
 
-- 运行screen并在screen里运行 Minecraft 服务端程序
+- 运行screen并在screen里运行 Minecraft 服务端
 
 ```bash
 screen -S 1.17
@@ -451,8 +451,6 @@ cd 1.17
 # 第三次运行服务端程序
 java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 ```
-
-使用screen的好处是可以关闭命令窗口而不用担心服务器也一起关闭
 
 > 使用<kbd>Ctrl</kbd>+<kbd>A</kbd>+<kbd>D</kbd> 来将screen放至后台运行
 
@@ -492,7 +490,9 @@ screen -X -S <创建的窗口名称或窗口id> quit # 完全关闭窗口 例scr
 
 至此一个原版不带任何mod的Minecraft 服务器就已经搭建好了
 
-登陆服务器应当使用前面 `server.properties` 配置的ip进行连接,如果留空则使用服务器公网ipv4地址连接,端口无修改则为默认 `25565` 修改请使用修改后的端口进行连接  
+连接服务器请使用 `ip:port` 格式进行连接  
+- ip应当使用 `server.properties` 中 `server-ip` 项配置的IP地址进行连接,如果留空则默认使用服务器公网ipv4地址  
+- port应当使用 `server.properties` 中 `server-port` 项配置的端口进行连接,默认应为 `25565`   
 
 ## #3 给服务端安装Fabric
 
@@ -502,22 +502,22 @@ screen -X -S <创建的窗口名称或窗口id> quit # 完全关闭窗口 例scr
 
 - 下载Fabric安装器
 
-访问[Fabric](https://fabricmc.net/use/)官网 下载至服务器Minecraft服务端同一文件夹内
+访问[Fabric](https://fabricmc.net/use/)官网下载 Fabric 安装器至服务器Minecraft服务端同一目录内
 
 ```bash
-wget https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.8.3/fabric-installer-0.8.3.jar
+wget https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.10.2/fabric-installer-0.10.2.jar
 ```
 
 使用以下命令给服务端安装Fabric加载器
 
 ```bash
-java -jar fabric-installer-0.8.3.jar server 1.17.1
+java -jar fabric-installer-0.10.2.jar server 1.17.1
 ```
 
 > 命令解释:  
-  fabric-installer-0.8.3.jar -----你下载的安装器文件全名  
+  fabric-installer-0.10.2.jar -----你下载的安装器文件全名  
   server -----安装到服务端  
-  -snapshot -----*可选 启用快照版本  
+  -snapshot -----*可选 启用快照版本*  
 > 1.17.1 ------服务端对应版本号
 
 等待所有文件下载完毕返回 `Done, start server by running fabric-server-launch.jar` 即代表安装完成  
@@ -537,7 +537,7 @@ java -jar -Xmx4G -Xms2G fabric-server-launch.jar nogui
 vim fabric-server-launcher.properties
 ```
 
-将 `server=` 后面修改为服务端程序名 即 `server_1.17.1.jar`
+将 `server=` 后面修改为服务端文件名 即 `server_1.17.1.jar`
 
 再次使用Fabric加载器启动MInecraft服务端
 
@@ -553,11 +553,11 @@ java -jar -Xmx4G -Xms2G fabric-server-launch.jar nogui
 java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 ```
 
-> 此后只需要将想加入的mod放入mods文件夹,重启 Minecraft 服务端就可以加载mod了
+> 此后只需要将mod放入 `mods` 文件夹,重启 Minecraft 服务端就可以加载mod了
 
 ## #4 更新
 
-更新 Minecraft 服务端版本时请养成随手备份的习惯,避免翻车
+更新 Minecraft 服务端版本前请务必做好备份工作
 
 - 更新 Minecraft 服务端版本
 
@@ -572,12 +572,12 @@ cp -R /root/1.17 /root/1.17_bak
 升级前删除旧版本文件,Fabric安装器没有更新的话不需要删除,版本更新后mod也需要升级到对应版本所以需要删除mod文件夹
 
 ```bash
-rm -rf .fabric/ .mixin.out/ mods/ fabric-installer-0.8.3.jar  fabric-server-launch.jar 
+rm -rf .fabric/ .mixin.out/ mods/ fabric-installer-0.10.2.jar  fabric-server-launch.jar 
 ```
 
 重复 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#2-%E5%AE%89%E8%A3%85minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF) 安装新版本Minecraft服务端
 
-别忘了顺手修改 `fabric-server-launcher.properties` 文件 将 `server=` 后面修改为你更新的服务端程序名
+别忘了顺手修改 `fabric-server-launcher.properties` 文件 将 `server=` 后面修改为你更新的服务端文件名
 
 重复 [#3](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#3-%E7%BB%99%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%89%E8%A3%85fabric) 安装新版本Fabric
 

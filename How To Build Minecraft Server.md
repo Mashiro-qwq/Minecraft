@@ -468,6 +468,12 @@ vim server.properties
     }
 ```
 
+如果修改了 `level-seed` 配置项，请删除 `world` 目录重新生成游戏世界
+
+```
+sudo rm -rf ./world
+```
+
 修改完配置之后先安装screen
 
 - 安装screen

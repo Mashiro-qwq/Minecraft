@@ -525,7 +525,7 @@ screen -ls # 查看当前所有窗口信息 正常应返回如下
 
 screen -r <窗口名称或窗口id> # 还原窗口 例 screen -r 1.17 或 screen -r 1276
 
-screen -X -S <创建的窗口名称或窗口id> quit # 完全关闭窗口 例screen -X -S 1.17 quit 或screen -X -S 1276 quit
+screen -X -S <窗口名称或窗口id> quit # 完全关闭窗口 例screen -X -S 1.17 quit 或screen -X -S 1276 quit
 #这里有可能创建两个同样名字的窗口而需要使用窗口id来关闭这个窗口 注意 'X' 和 'S' 都是大写
 ```
 

@@ -186,7 +186,7 @@ vim server.properties
     },
 [enable-jmx-monitoring] <布尔值> 默认值:'false'
     {
-    暴露一个具有对象名 net.minecraft.server:type=Server 的 MBean 和两个属性 averageTickTime和tickTimes 用于暴露以毫秒为单位的tick时间。
+    暴露一个具有对象名 net.minecraft.server:type=Server 的 MBean 和两个属性 averageTickTime 和 tickTimes 用于暴露以毫秒为单位的tick时间。
     为了启用JRE的JMX，你需要添加在此处所述的一些JVM标志。
         false 不启用
         true 启用

@@ -557,9 +557,9 @@ java -jar fabric-installer-0.10.2.jar server 1.17.1
 
 > 命令解释:  
   fabric-installer-0.10.2.jar -----你下载的安装器文件全名  
-  server -----安装到服务端  
+  server -----服务端安装模式  
   -snapshot -----*可选 启用快照版本*  
-> 1.17.1 ------服务端对应版本号
+> 1.17.1 ------服务端文件对应游戏版本号
 
 等待所有文件下载完毕返回 `Done, start server by running fabric-server-launch.jar` 即代表安装完成  
 若返回任何非上述文字提示,请重复执行命令重新安装Fabric

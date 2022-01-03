@@ -184,6 +184,13 @@ vim server.properties
         false 不启用
         true 启用
     },
+[enable-jmx-monitoring] <布尔值> '默认值:false'
+    {
+    暴露一个具有对象名 net.minecraft.server:type=Server 的 MBean 和两个属性 averageTickTime和tickTimes 用于暴露以毫秒为单位的tick时间。
+    为了启用JRE的JMX，你需要添加在此处所述的一些JVM标志。
+        false 不启用
+        true 启用
+    },
 [enable-query] <布尔值> '默认值:false'
     {
     允许使用GameSpy4协议的服务器监听器。用于获取服务器信息。
@@ -195,6 +202,25 @@ vim server.properties
     是否允许远程访问服务器控制台。
         false 不启用
         true 启用
+    },
+[enable-status] <布尔值> '默认值:true'
+    {
+    使服务器在服务器列表中看起来是“在线”的。
+        false 不启用
+        true 启用
+    },
+[enforce-whitelist] <布尔值> '默认值:false'
+    {
+    在服务器上强制执行白名单。
+    当启用后，不在白名单（前提是启用）中的用户将在服务器重新加载白名单文件后从服务器踢出。
+        false 不在白名单上的在线用户不会被踢出。
+        true 不在白名单上的用户会被踢出。
+    },
+[entity-broadcast-range-percentage] <整数（10-1000）> '默认值:100'
+    {
+    此选项控制实体需要距离玩家有多近才会将数据包发送给客户端。更高的数值意味着实体可以在更远的地方就被渲染，同时也可能提高增加延迟的几率。
+    这个值是以默认值的百分比来表示的。例如：将此值设为50，表示将渲染正常情况下一半距离以内的生物。
+    此功能模仿了客户端视频设置中的功能，而不像客户端的渲染距离设置一样只能在服务器设置的限制下调整渲染距离。
     },
 [force-gamemode] <布尔值> '默认值:false'
     {
@@ -230,6 +256,10 @@ vim server.properties
 [hardcore] <布尔值> '默认值:false'
     {
     如果设为 true，服务器难度的设置会被忽略并且设为 hard（困难），玩家在死后会自动切换至旁观模式。
+    },
+[hide-online-players] <布尔值> '默认值:false'
+    {
+    如果设为 true，服务端在响应客户端状态请求时不会返回在线玩家列表。
     },
 [level-name] <字符串> '默认值:world'
     {
@@ -341,6 +371,11 @@ vim server.properties
     {
     设置监听服务器的端口号（参见 enable-query）。
     },
+[rate-limit] <整数> '默认值:	0'
+    {
+    设置玩家被踢出服务器前，可以发送的数据包数量。
+    设置为0表示关闭此功能。
+    },
 [rcon.password] <字符串> '默认值:空白'
     {
     设置RCON远程访问的密码（参见enable-rcon）。
@@ -350,11 +385,20 @@ vim server.properties
     {
     设置RCON远程访问的端口号。
     },
+[require-resource-pack] <布尔值> '默认值:	false'
+    {
+    当此选项启用（设为true）时，玩家会被提示作出选择（是否启用服务器资源包）。如果玩家拒绝则会被服务器断开连接。
+    },
 [resource-pack] <字符串> '默认值:空白'
     {
     可选选项，可输入指向一个资源包的URI。玩家可选择是否使用该资源包。
     注意若该值含":"和"="字符，需要在其前加上反斜线(\)，例如 http\://somedomain.com/somepack.zip?someparam\=somevalue
     资源包大小理应不能超过50 MiB（≈ 50.4 MB）。注意，下载成功或失败由客户端记录，而非服务器。
+    },
+[resource-pack-prompt] <字符串> '默认值:空白'
+    {
+    可选，用于在使用 require-resource-pack 时在资源包提示界面显示自定义信息。
+    与聊天组件语法一致，可以包含多行文本。
     },
 [resource-pack-sha1] <字符串> '默认值:空白'
     {
@@ -368,12 +412,6 @@ vim server.properties
 [server-port] <整数（1-65534）> '默认值:25565'
     {
     改变服务器（监听的）端口号。如果服务器在使用NAT的网络中运行，该端口必须被转发（在你有家用路由器/防火墙的前提下）。
-    },
-[snooper-enabled] <布尔值> '默认值:true'
-    {
-    是否允许服务端定期发送统计数据到http://snoop.minecraft.net。
-        false - 禁用数据采集
-        true - 启用数据采集
     },
 [spawn-animals] <布尔值> '默认值:true'
     {
@@ -403,6 +441,10 @@ vim server.properties
     设置为1会保护以出生点为中心的3x3方块的区域，2会保护5x5方块的区域，3会保护7x7方块的区域，以此类推。
     这个选项不在第一次服务器启动时生成，只会在第一个玩家加入服务器时出现。如果服务器没有设置OP，这个选项会自动禁用。
     },
+[sync-chunk-writes] <布尔值> '默认值:true'
+    {
+    启用后区块文件以同步模式写入。
+    },
 [use-native-transport] <布尔值> '默认值:true'
     {
     是否使用针对Linux平台的数据包收发优化。此选项仅会在Linux平台上生成。
@@ -423,13 +465,6 @@ vim server.properties
         alse - 不使用白名单。
         true - 从whitelist.json文件加载白名单。
     注: OP会自动被视为在白名单上，所以无需再将OP加入白名单。
-    },
-[enforce-whitelist] <布尔值> '默认值:false'
-    {
-    在服务器上强制执行白名单。
-    当启用后，不在白名单（前提是启用）中的用户将在服务器重新加载白名单文件后从服务器踢出。
-        true - 不在白名单上的用户不会被踢出。
-        false - 不在白名单上的在线用户会被踢出。
     }
 ```
 

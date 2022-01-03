@@ -25,7 +25,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17.1-1.4.56+v211130
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
         - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.1+mc1.17.1
-        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-1.2.2
+        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-1.2.3
         - [[Iris光影着色器]Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) version 1.1.3
         - [[物品滚轮]Item Scroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller) version 1.17.1-0.15.0-dev.20211201.010054
         - [[投影]Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) version 1.17.1-0.9.0

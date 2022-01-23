@@ -18,27 +18,27 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
     - 集成的MOD ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 0.10.2 和 [Iris](https://irisshaders.net/) 光影着色器 version 2.0.3_2 )
         - [[饥饿显示]Appleskin](https://github.com/squeek502/AppleSkin/releases) version mc1.17-2.2.0
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
-        - [[地毯附加]Carpet Tis Addition](https://github.com/TISUnion/Carpet-TIS-Addition/releases) version 1.27.3
+        - [[地毯附加]Carpet Tis Addition](https://github.com/TISUnion/Carpet-TIS-Addition/releases) version 1.28.3
         - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 1.17.1-fabric0.36.1-1.10.2
         - [[箱子渲染优化]Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) version 0.5+1.17
-        - [[Fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.45.0+1.17
-        - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17.1-1.4.56+v211130
+        - [[Fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.46.1+1.17
+        - [[地毯]Carpet](https://github.com/gnembon/fabric-carpet/releases) version 1.17.1-1.4.57+v220119
         - [[Voxel小地图]VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap) version 1.10.15_for_1.17.0
         - [[铟-优化]Indium](https://github.com/comp500/Indium) version 1.0.1+mc1.17.1
-        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-1.2.3
-        - [[Iris光影着色器]Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) version 1.1.3
+        - [[R键整理]Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) version 1.17-1.2.4
+        - [[Iris光影着色器]Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) version 1.2.0
         - [[物品滚轮]Item Scroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller) version 1.17.1-0.15.0-dev.20211201.010054
         - [[投影]Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica) version 1.17.1-0.9.0
         - [[锂-优化]Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) version mc1.17.1-0.7.5
         - [[masa运行库]MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib) version 1.17.1-0.10.0-dev.26
-        - [[masa附加]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17.1-2.0.7-beta.b51c38f
-        - [[迷你信息]MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) version 1.17.1-0.19.0-dev.20211027.183903
+        - [[masa附加]MasaGadget](https://github.com/uestclug/MasaGadget) version 1.17.1-2.0.7
+        - [[迷你信息]MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) version 1.17.1-0.20.0
         - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.14
         - [[粒子雨]Particle Rain](https://www.curseforge.com/minecraft/mc-mods/particle-rain) version 1.5.0
         - [[回放]Replay](https://www.replaymod.com/) version 1.17.1-2.6.3
         - [[MiniHUD服务端组件]Servux](https://www.curseforge.com/minecraft/mc-mods/servux) version 1.17.0-0.1.0
         - [[钠-附加]Sodium Extra](https://modrinth.com/mod/sodium-extra) version 0.3.6
-        - [[钠]Sodium](https://github.com/CaffeineMC/sodium-fabric) version 0.3.3+build.8
+        - [[钠]Sodium](https://github.com/CaffeineMC/sodium-fabric) version 0.3.4+build.13
         - [[星光-光照优化]Starlight](https://www.curseforge.com/minecraft/mc-mods/starlight) version 1.0.0+fabric.73f6d37
         - [[信息统计]Tellme](https://www.curseforge.com/minecraft/mc-mods/tellme) version 1.17.1-0.9.0
         - [[技巧操作]Tweakeroo](https://www.curseforge.com/minecraft/mc-mods/tweakeroo) version 1.17.1-0.11.0

@@ -35,6 +35,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[迷你信息]MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) version 1.17.1-0.20.0
         - [[mod列表]Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) version 2.0.14
         - [[粒子雨]Particle Rain](https://www.curseforge.com/minecraft/mc-mods/particle-rain) version 1.5.0
+        - [[钠-界面替换]reeses sodium options](https://modrinth.com/mod/reeses-sodium-options) version 1.4.2
         - [[回放]Replay](https://www.replaymod.com/) version 1.17.1-2.6.4
         - [[MiniHUD服务端组件]Servux](https://www.curseforge.com/minecraft/mc-mods/servux) version 1.17.0-0.1.0
         - [[钠-附加]Sodium Extra](https://modrinth.com/mod/sodium-extra) version 0.4.2

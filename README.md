@@ -19,6 +19,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[饥饿显示]Appleskin](https://github.com/squeek502/AppleSkin/releases) version mc1.17-2.4.0
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
         - [[地毯附加]Carpet Tis Addition](https://github.com/TISUnion/Carpet-TIS-Addition/releases) version 1.31.0
+        - [[RNG附魔]Clientcommands](https://github.com/Earthcomputer/clientcommands) version 2.5.5
         - [[耐久显示]Durability Viewer](https://www.curseforge.com/minecraft/mc-mods/giselbaers-durability-viewer) version 1.17.1-fabric0.36.1-1.10.2
         - [[箱子渲染优化]Enhanced Block Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) version 0.5+1.17
         - [[Fabric运行库]Fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api) version 0.46.1+1.17
@@ -42,6 +43,7 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
         - [[钠]Sodium](https://github.com/CaffeineMC/sodium-fabric) version 0.3.4+build.13
         - [[星光-光照优化]Starlight](https://www.curseforge.com/minecraft/mc-mods/starlight) version 1.0.0+fabric.73f6d37
         - [[信息统计]Tellme](https://www.curseforge.com/minecraft/mc-mods/tellme) version 1.17.1-0.9.0
+        - [[技巧操作附加]Tweakermore](https://github.com/Fallen-Breath/tweakermore) version 2.8.0
         - [[技巧操作]Tweakeroo](https://www.curseforge.com/minecraft/mc-mods/tweakeroo) version 1.17.1-0.11.0
         - [[目标显示]Wthit](https://github.com/badasintended/wthit) version 3.11.2
 

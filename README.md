@@ -7,7 +7,7 @@
 > 本服务器版本始终与 Minecraft 最新发布版本/每周快照版本保持同步 (预计每周三晚12点进行停机维护更新)
 
 <span style="font-size: 15px"><span style="color: rgb(24, 218, 100)">
-Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">Update Time : 2021/12/29 18:24:33
+Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">Update Time : 2022/3/27 15:12:49
 
 ## [如何搭建 Minecraft 服务器](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md) ##
 
@@ -985,7 +985,7 @@ NBT格式
 
 指南针和磁石指针
 
-- 材质分别从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/97/Compass_JE2_BE2.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b3/Compass_JE3_BE3.gif" width="32">，<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/6/61/Invicon_Lodestone_Compass.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/d/da/Lodestone_Compass_JE2.gif" width="32">。现在其铁质部分的颜色与材质更新后的其他铁质物件材质的颜色更匹配了。
+- 材质分别从<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/97/Compass_JE2_BE2.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/b/b3/Compass_JE3_BE3.gif" width="32">，<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/6/61/Invicon_Lodestone_Compass.gif" width="32">更改为<img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/9/9e/Lodestone_Compass_JE2_BE2.gif" width="32">。现在其铁质部分的颜色与材质更新后的其他铁质物件材质的颜色更匹配了。
 
 河豚
 

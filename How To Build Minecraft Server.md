@@ -8,25 +8,25 @@
 sudo apt update && sudo apt upgrade -y
 ```
 
- - 检查当前是否有Java运行环境
+ - 检查当前是否有 Java 运行环境
 
 ```bash
 java -version
 ```
 
-如果返回版本信息请跳至 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#2-%E5%AE%89%E8%A3%85minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF)
+如果返回版本信息请跳至 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#2-%E5%AE%89%E8%A3%85Minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF)
 
-例如我的java版本如下
+例如我的 Java 版本如下
 
 ```bash
-openjdk version "17.0.1" 2021-10-19
-OpenJDK Runtime Environment (build 17.0.1+12-39)
-OpenJDK 64-Bit Server VM (build 17.0.1+12-39, mixed mode, sharing)
+openjdk version "18" 2022-03-22
+OpenJDK Runtime Environment (build 18+36-2087)
+OpenJDK 64-Bit Server VM (build 18+36-2087, mixed mode, sharing)
 ```
 
-如果没有返回版本信息则有两种方法安装java环境
+如果没有返回版本信息则有两种方法安装 Java 环境
 
-1 使用以下命令自动安装Java运行环境
+1 使用以下命令自动安装 Java 运行环境
 
 ```bash
 sudo apt install default-jdk -y
@@ -34,31 +34,31 @@ sudo apt install default-jdk -y
 
 2 手动安装jdk
 
-- 下载 openjdk 最新release包
+- 下载 openjdk 最新 release 包
 
 ```bash
-curl -O https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz
+curl -O https://download.java.net/java/GA/jdk18/43f95e8614114aeaa8e8a5fcf20a682d/36/GPL/openjdk-18_linux-x64_bin.tar.gz
 ```
 
-- 安装openjdk
+- 安装 openjdk
 
 解压
 
 ```bash
-tar xvf openjdk-17.0.1_linux-x64_bin.tar.gz
+tar xvf openjdk-18_linux-x64_bin.tar.gz
 ```
 
 等待解压结束将生成的文件夹移动至 /opt 目录
 
 ```bash
-sudo mv jdk-17.0.1 /opt/
+sudo mv jdk-18 /opt/
 ```
 
-配置Java环境变量
+配置 Java 环境变量
 
 ```bash
-sudo tee /etc/profile.d/jdk17.0.1.sh <<EOF
-export JAVA_HOME=/opt/jdk-17.0.1
+sudo tee /etc/profile.d/jdk18.sh <<EOF
+export JAVA_HOME=/opt/jdk-18
 export PATH=\$PATH:\$JAVA_HOME/bin
 EOF
 ```
@@ -66,33 +66,33 @@ EOF
 更新配置文件
 
 ```bash
-source /etc/profile.d/jdk17.0.1.sh
+source /etc/profile.d/jdk18.sh
 ```
 
-确认Java版本
+确认 Java 版本
 
 ```bash
 # 输入
 echo $JAVA_HOME
-# 此时应返回Java Home目录
-/opt/jdk-17.0.1
+# 此时应返回 Java Home 目录
+/opt/jdk-18
 
 
 # 输入
 java -version
-# 此时应返回jvm版本信息
-openjdk version "17.0.1" 2021-10-19
-OpenJDK Runtime Environment (build 17.0.1+12-39)
-OpenJDK 64-Bit Server VM (build 17.0.1+12-39, mixed mode, sharing)
+# 此时应返回 jvm 版本信息
+openjdk version "18" 2022-03-22
+OpenJDK Runtime Environment (build 18+36-2087)
+OpenJDK 64-Bit Server VM (build 18+36-2087, mixed mode, sharing)
 # 输入
 javac -version
-# 此时应返回jdk版本信息
-javac 17.0.1
+# 此时应返回 jdk 版本信息
+javac 18
 ```
 
-至此java环境便安装完毕
+至此 Java 环境便安装完毕
 
-## #2 安装Minecraft服务端 ##
+## #2 安装 Minecraft 服务端 ##
 
 - 创建目录
 
@@ -186,7 +186,7 @@ vim server.properties
     },
 [enable-jmx-monitoring] <布尔值> 默认值:'false'
     {
-    暴露一个具有对象名 net.minecraft.server:type=Server 的 MBean 和两个属性 averageTickTime 和 tickTimes 用于暴露以毫秒为单位的tick时间。
+    暴露一个具有对象名 net.Minecraft.server:type=Server 的 MBean 和两个属性 averageTickTime 和 tickTimes 用于暴露以毫秒为单位的tick时间。
     为了启用JRE的JMX，你需要添加在此处所述的一些JVM标志。
         false 不启用
         true 启用
@@ -323,7 +323,7 @@ vim server.properties
     {
     是否让服务器对比Minecraft账户数据库验证登录信息。
     只有在你的服务器并未与 Internet 连接时，才将这个值设为false。如果设为false，黑客就能够使用任意假账户连接服务器！
-    如果minecraft.net服务器宕机或不可访问，那么该值设为true的服务器会因为无法验证玩家身份而拒绝所有玩家加入。
+    如果Minecraft.net服务器宕机或不可访问，那么该值设为true的服务器会因为无法验证玩家身份而拒绝所有玩家加入。
     通常，这个值设为true的服务器被称为“正版服务器”。
     故意设定该变量为false的服务器称为“破解服务器”，这类服务器允许拥有未授权的Minecraft副本的玩家加入。
         true - 启用。服务器会认为自己具有 Internet 连接，并检查每一位连入的玩家。
@@ -423,7 +423,7 @@ vim server.properties
     },
 [snooper-enabled] <布尔值> 默认值:'true'
     {
-    设置服务器是否定期向 http://snoop.minecraft.net 发送 snoop 数据。
+    设置服务器是否定期向 http://snoop.Minecraft.net 发送 snoop 数据。
         false - 禁用窥探。
         true - 启用监听。
     },
@@ -492,15 +492,15 @@ vim server.properties
 rm -rf ./world
 ```
 
-修改完配置之后先安装screen
+修改完配置之后先安装 screen
 
-- 安装screen
+- 安装 screen
 
 ```bash
 sudo apt install screen -y
 ```
 
-- 运行screen并在screen里运行 Minecraft 服务端
+- 运行 screen 并在 screen 里运行 Minecraft 服务端
 
 ```bash
 screen -S 1.17
@@ -511,25 +511,25 @@ cd 1.17
 java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 ```
 
-> 使用<kbd>Ctrl</kbd>+<kbd>A</kbd>+<kbd>D</kbd> 来将screen放至后台运行
+> 使用<kbd>Ctrl</kbd>+<kbd>A</kbd>+<kbd>D</kbd> 来将 screen 放至后台运行
 
-- screen的一些基本命令
+- screen 的一些基本命令
 > 语法 # screen [-AmRvx -ls -wipe][-d <窗口名称>][-h <行数>][-r <窗口名称>][-s ][-S <窗口名称>]
 - 参数说明
 > -A 　将所有的视窗都调整为目前终端机的大小  
-  -d <窗口名称> 　将指定的screen窗口离线  
+  -d <窗口名称> 　将指定的 screen 窗口离线  
   -h <行数> 　指定视窗的缓冲区行数  
-  -m 　即使目前已在窗口中的screen窗口，仍强制建立新的screen窗口  
-  -r <窗口名称>或<窗口id> 　恢复离线的screen窗口  
-  -R 　先试图恢复离线的窗口。若找不到离线的窗口，即建立新的screen窗口  
-  -s 　指定建立新视窗时，所要执行的shell  
-  -S <窗口名称> 　指定screen窗口的名称  
+  -m 　即使目前已在窗口中的 screen 窗口，仍强制建立新的 screen 窗口  
+  -r <窗口名称>或<窗口id> 　恢复离线的 screen 窗口  
+  -R 　先试图恢复离线的窗口。若找不到离线的窗口，即建立新的 screen 窗口  
+  -s 　指定建立新视窗时，所要执行的 shell  
+  -S <窗口名称> 　指定 screen 窗口的名称  
   -v 　显示版本信息  
-  -x 　恢复之前离线的screen窗口  
-  -ls或--list 　显示目前所有的screen窗口  
-> -wipe 　检查目前所有的screen窗口，并删除已经无法使用的screen窗口  
+  -x 　恢复之前离线的 screen 窗口  
+  -ls或--list 　显示目前所有的 screen 窗口  
+> -wipe 　检查目前所有的 screen 窗口，并删除已经无法使用的 screen 窗口  
 
-- 常用的screen命令
+- 常用的 screen 命令
 ```bash
 screen -S <Minecraft版本名> # 建立新窗口 例 screen -S 1.17 注意 'S' 是大写
 
@@ -547,7 +547,7 @@ screen -X -S <窗口名称或窗口id> quit # 完全关闭窗口 例screen -X -S
 #这里有可能创建两个同样名字的窗口而需要使用窗口id来关闭这个窗口 注意 'X' 和 'S' 都是大写
 ```
 
-至此一个原版不带任何mod的Minecraft 服务器就已经搭建好了
+至此一个原版不带任何 Mod 的 Minecraft 服务器就已经搭建好了
 
 连接服务器请使用 `ip:port` 格式进行连接  
 - ip应当使用 `server.properties` 中 `server-ip` 项配置的IP地址进行连接,如果留空则默认使用服务器公网ipv4地址  
@@ -559,15 +559,15 @@ screen -X -S <窗口名称或窗口id> quit # 完全关闭窗口 例screen -X -S
 
 输入 `stop` 结束服务端运行
 
-- 下载Fabric安装器
+- 下载 Fabric 安装器
 
-访问[Fabric](https://fabricmc.net/use/)官网下载 Fabric 安装器至服务器Minecraft服务端同一目录内
+访问[Fabric](https://fabricmc.net/use/)官网下载 Fabric 安装器至服务器 Minecraft 服务端同一目录内
 
 ```bash
 wget https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.10.2/fabric-installer-0.10.2.jar
 ```
 
-使用以下命令给服务端安装Fabric加载器
+使用以下命令给服务端安装 Fabric 加载器
 
 ```bash
 java -jar fabric-installer-0.10.2.jar server 1.17.1
@@ -580,9 +580,9 @@ java -jar fabric-installer-0.10.2.jar server 1.17.1
 > 1.17.1 ------服务端文件对应游戏版本号
 
 等待所有文件下载完毕返回 `Done, start server by running fabric-server-launch.jar` 即代表安装完成  
-若返回任何非上述文字提示,请重复执行命令重新安装Fabric
+若返回任何非上述文字提示,请重复执行命令重新安装 Fabric
 
-- 使用Fabric加载器启动MInecraft服务端
+- 使用 Fabric 加载器启动 Minecraft 服务端
 
 ```bash
 java -jar -Xmx4G -Xms2G fabric-server-launch.jar nogui
@@ -598,21 +598,21 @@ vim fabric-server-launcher.properties
 
 将 `server=` 后面修改为服务端文件名 即 `server_1.17.1.jar`
 
-再次使用Fabric加载器启动MInecraft服务端
+再次使用 Fabric 加载器启动 Minecraft 服务端
 
 ```bash
 java -jar -Xmx4G -Xms2G fabric-server-launch.jar nogui
 ```
 
-至此基于fabric加载器的 Minecraft 服务端就搭建好了  
-以后每次启动带Fabric的服务端都需要输入上面的命令  
+至此基于 Fabric 加载器的 Minecraft 服务端就搭建好了  
+以后每次启动带 Fabric 的服务端都需要输入上面的命令  
 调试时,启动纯净 Minecraft 服务端则使用以下命令
 
 ```java
 java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 ```
 
-> 此后只需要将mod放入 `mods` 文件夹,重启 Minecraft 服务端就可以加载mod了
+> 此后只需要将 Mod 放入 `mods` 文件夹,重启 Minecraft 服务端就可以加载 Mod 了
 
 ## #4 更新
 
@@ -628,16 +628,16 @@ java -jar -Xmx4G -Xms2G server_1.17.1.jar nogui
 cp -R /root/1.17 /root/1.17_bak
 ```
 
-升级前删除旧版本文件,Fabric安装器没有更新的话不需要删除,版本更新后mod也需要升级到对应版本所以需要删除mod文件夹
+升级前删除旧版本文件, Fabric 安装器没有更新的话不需要删除,版本更新后 Mod 也需要升级到对应版本所以需要删除 Mod 文件夹
 
 ```bash
 rm -rf .fabric/ .mixin.out/ mods/ fabric-installer-0.10.2.jar  fabric-server-launch.jar 
 ```
 
-重复 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#2-%E5%AE%89%E8%A3%85minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF) 安装新版本Minecraft服务端
+重复 [#2](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#2-%E5%AE%89%E8%A3%85Minecraft%E6%9C%8D%E5%8A%A1%E7%AB%AF) 安装新版本 Minecraft 服务端
 
 别忘了顺手修改 `fabric-server-launcher.properties` 文件 将 `server=` 后面修改为你更新的服务端文件名
 
-重复 [#3](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#3-%E7%BB%99%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%89%E8%A3%85fabric) 安装新版本Fabric
+重复 [#3](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md#3-%E7%BB%99%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%89%E8%A3%85fabric) 安装新版本 Fabric
 
 至此服务端完全安装完毕 Enjoy!!!

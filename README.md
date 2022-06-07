@@ -14,8 +14,8 @@ Network Minecraft Server Version: 1.17.1 <span style="color: rgb(255, 20, 147)">
 # 使用的文件 #
 
 - 服务端文件 [server_1.17.1](https://fubuki.lanzoui.com/iyHbwriunqj) | [服务端文件归档](https://fubuki.lanzoub.com/b00tgp19g)
-- 纯净生存整合包 [Minecraft_1.17.1_Modpack](https://github.com/Mashiro-qwq/Minecraft/releases) | [蓝奏云](https://fubuki.lanzouw.com/b00uwgxpc) 密码:1pqz
-    - 集成的MOD ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 0.10.2 和 [Iris](https://irisshaders.net/) 光影着色器 version 2.0.3 )
+- 纯净生存整合包 [Minecraft_1.17.1_Modpack](https://github.com/Mashiro-qwq/Minecraft/releases) | [蓝奏云](https://fubuki.lanzouw.com/b00uwgxpc) 密码 1pqz
+    - 集成的MOD ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 0.11.0 和 [Iris](https://irisshaders.net/) 光影着色器 version 2.0.4 )
         - [[饥饿显示]Appleskin](https://github.com/squeek502/AppleSkin/releases) version mc1.17.1-2.4.0
         - [[自动钓鱼]Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) version 0.9.3-fabric-mc1.17
         - [[地毯附加]Carpet Tis Addition](https://github.com/TISUnion/Carpet-TIS-Addition/releases) version 1.36.0

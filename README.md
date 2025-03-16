@@ -13,7 +13,7 @@ Network Minecraft Server Version: 1.21.4 <span style="color: rgb(255, 20, 147)">
 - 纯净生存整合包 [Minecraft_1.21.4_Modpack](https://github.com/Mashiro-qwq/Minecraft/releases) | [蓝奏云](https://fubuki.lanzouw.com/b00uwgxpc) 密码 1pqz
     - 集成的MOD ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 0.11.0 和 [Iris](https://irisshaders.net/) 光影着色器 version 2.0.4 )
         - [[饥饿显示]Appleskin](https://modrinth.com/mod/appleskin) version appleskin-fabric-mc1.21.3-3.0.6
-        - [[自动钓鱼]Autofish](https://modrinth.com/mod/x+-autofish) version 1.3.4-fabric-mc1.21.4-1.21.2
+        - [[目标显示前置]bad packets](https://modrinth.com/mod/badpackets) version 0.8.2
         - [[地毯额外功能]carpet-extra](https://modrinth.com/mod/carpet-extra) version Carpet Extra 1.4.161 for Minecraft 1.21.4
         - [[地毯附加]Carpet Tis Addition](https://modrinth.com/mod/carpet-tis-addition) version Carpet TIS Addition v1.65.2 for mc1.21.4
         - [[RNG附魔]Clientcommands](https://modrinth.com/mod/client-commands) version 2.9.10
@@ -44,6 +44,8 @@ Network Minecraft Server Version: 1.21.4 <span style="color: rgb(255, 20, 147)">
         - [[技巧操作]Tweakeroo](https://modrinth.com/mod/tweakeroo) version Tweakeroo 1.21.4-0.23.2
         - [[Voxel小地图]VoxelMap Updated](https://modrinth.com/mod/voxelmap-updated) VoxelMap-Updated 1.21.4-1.14.9
         - [[目标显示]Wthit](https://modrinth.com/mod/wthit) version 14.1.4
+        - [[自动钓鱼]XplusAutofish](https://modrinth.com/mod/x+-autofish) version 1.3.4-fabric-mc1.21.4-1.21.2
+        - [[粒子雨前置]YetAnotherConfigLib](https://modrinth.com/mod/yacl) version 3.6.3 for fabric 1.21.4
 
     - 集成的资源包
         - [Masa 汉化资源包V2e [1.12-1.17]](https://law4x.lanzoui.com/b01hh442b) 密码:law4x [原帖地址](https://www.bilibili.com/read/cv6590190)

@@ -23,7 +23,7 @@ Network Minecraft Server Version: 1.21.4 <span style="color: rgb(255, 20, 147)">
         - [[地毯]Carpet](https://modrinth.com/mod/carpet) version Carpet 1.4.161 for Minecraft 1.21.4
         - [[Kotlin支持]Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) version Fabric Language Kotlin 1.13.1+kotlin.2.1.10
         - [[铟-优化]Indium](https://modrinth.com/mod/indium) version Indium 1.0.35 for Minecraft 1.21.x/Sodium 0.5.11
-        - [[R键整理]Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) version IPN 2.1.4 for fabric 1.21.4
+        - [[R键整理]Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) version IPN 2.1.5 for fabric 1.21.4
         - [[Iris光影着色器]Iris Shaders](https://modrinth.com/mod/iris) version Iris 1.8.8 for Fabric 1.21.4
         - [[物品滚轮]Item Scroller](https://modrinth.com/mod/item-scroller) version Item Scroller 1.21.4-0.26.2
         - [[IPN库]libIPN](https://modrinth.com/mod/libipn) version libIPN 6.3.1 for fabric 1.21.4

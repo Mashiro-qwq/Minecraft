@@ -10,7 +10,6 @@ Network Minecraft Server Version: 1.21.5 <span style="color: rgb(255, 20, 147)">
 # 使用的文件 #
 
 - 服务端文件 [server_1.21.5](https://fubuki.lanzoue.com/i7k2u2ue84xc) | [服务端文件归档](https://fubuki.lanzoub.com/b00tgp19g)
-<!-- - 纯净生存整合包 [Minecraft_1.21.4_Modpack](https://github.com/Mashiro-qwq/Minecraft/releases) | [蓝奏云](https://fubuki.lanzouw.com/b00uwgxpc) 密码 1pqz -->
     - 集成的MOD：33个 ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 1.0.3 和 [Iris](https://www.irisshaders.dev/) 光影着色器 version 3.2.1 )
         - [[饥饿显示]Appleskin](https://modrinth.com/mod/appleskin) version appleskin-fabric-mc1.21.5-3.0.6
         - [[目标显示前置]bad packets](https://modrinth.com/mod/badpackets) version 0.8.2

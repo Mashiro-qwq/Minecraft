@@ -9,7 +9,7 @@
 ### 使用的文件
 
 - 服务端文件 [server_1.21.10](https://fubuki.lanzoue.com/ibfXN380need) | [服务端文件归档](https://fubuki.lanzoub.com/b00tgp19g)
-    - 集成的MOD：36个 ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 1.1.0 和 [Iris](https://www.irisshaders.dev/) 光影着色器 version 3.2.1 )
+    - 集成的MOD：38个 ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 1.1.0 和 [Iris](https://www.irisshaders.dev/) 光影着色器 version 3.2.1 )
         - [[琥珀API库]Amber](https://modrinth.com/mod/amber) version 8.2.0
         - [[饥饿显示]Appleskin](https://modrinth.com/mod/appleskin) version 3.0.7
         - [[目标显示前置]bad packets](https://modrinth.com/mod/badpackets) version 0.10.2

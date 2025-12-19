@@ -48,4 +48,4 @@
         - [[粒子雨前置]YetAnotherConfigLib](https://modrinth.com/mod/yacl) version 3.8.1
 
     - 集成的资源包
-        - [[遥远的地平线DistantHorizons汉化材质包]](https://wwuy.lanzoue.com/ilrhR33w4yob) - [[作者] 肜淼 By bilibili](https://www.bilibili.com/video/BV1dLeAzBEgp)
+        - [[Distant Horizons 遥远的地平线汉化包]](https://modrinth.com/resourcepack/distant-horizons-zh) version 2.4.0

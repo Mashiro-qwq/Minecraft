@@ -2,11 +2,11 @@
 <img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/4/4d/Mclogo.svg" width="512">
 </p>
 
-## Minecraft Server Version: <span style="color: #66ccffff"> 1.21.10 <span style="color: #D4D4D4ff"> Update Time : <span style="color: #ffb7c5ff"> 2025/12/20 00:18:16
+# Minecraft Server Version: <span style="color: #66ccffff"> 1.21.10 </span> <span style="color: #D4D4D4ff"> Update Time : </span> <span style="color: #ffb7c5ff"> 2025/12/20 00:18:16</span>
 
-## [如何搭建 Minecraft 服务器](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md) ##
+## [如何搭建 Minecraft 服务器](https://github.com/Mashiro-qwq/Minecraft/blob/main/How%20To%20Build%20Minecraft%20Server.md)
 
-# 使用的文件 #
+### 使用的文件
 
 - 服务端文件 [server_1.21.10](https://fubuki.lanzoue.com/ibfXN380need) | [服务端文件归档](https://fubuki.lanzoub.com/b00tgp19g)
     - 集成的MOD：36个 ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 1.1.0 和 [Iris](https://www.irisshaders.dev/) 光影着色器 version 3.2.1 )
@@ -49,4 +49,3 @@
 
     - 集成的资源包
         - [[遥远的地平线DistantHorizons汉化材质包]](https://wwuy.lanzoue.com/ilrhR33w4yob) - [[作者] 肜淼 By bilibili](https://www.bilibili.com/video/BV1dLeAzBEgp)
-        

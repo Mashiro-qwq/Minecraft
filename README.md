@@ -13,6 +13,7 @@
         - [[琥珀API库]Amber](https://modrinth.com/mod/amber) version 8.2.0
         - [[饥饿显示]Appleskin](https://modrinth.com/mod/appleskin) version 3.0.7
         - [[目标显示前置]bad packets](https://modrinth.com/mod/badpackets) version 0.10.2
+        - [[C^2ME-区块引擎]Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) version 0.3.6+alpha.0.9
         - [[地毯扩展]carpet-extra](https://github.com/gnembon/carpet-extra) version 1.4.178
         - [[地毯附加]Carpet Tis Addition](https://modrinth.com/mod/carpet-tis-addition) version 1.72.2
         - [[RNG附魔]Clientcommands](https://modrinth.com/mod/client-commands) version 2.12.3
@@ -37,6 +38,7 @@
         - [[粒子雨]Particle Rain](https://modrinth.com/mod/particle-rain) version 4.0.0-beta.3
         - [[钠-界面替换]reeses sodium options](https://modrinth.com/mod/reeses-sodium-options) version 1.8.6
         - [[回放]Replay](https://modrinth.com/mod/replaymod) version 2.6.25
+        - [[并行光照]ScalableLux](https://modrinth.com/mod/scalablelux) version 0.1.6+fabric.c25518a-all
         - [[MiniHUD服务端组件]Servux](https://modrinth.com/mod/servux) version 0.8.5
         - [[钠-附加]Sodium Extra](https://modrinth.com/mod/sodium-extra) version 0.7.1
         - [[钠]Sodium](https://modrinth.com/mod/sodium) version 0.7.3

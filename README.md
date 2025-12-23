@@ -10,7 +10,7 @@
 
 - 服务端文件 [server_1.21.10](https://fubuki.lanzoue.com/ibfXN380need) | [服务端文件归档](https://fubuki.lanzoub.com/b00tgp19g)
     - 集成的MOD：38个 ( 基于 [Fabric](https://fabricmc.net/) 加载器 version 1.1.0 和 [Iris](https://www.irisshaders.dev/) 光影着色器 version 3.2.1 )
-        - [[琥珀API库]Amber](https://modrinth.com/mod/amber) version 8.2.0
+        - [[琥珀API库]Amber](https://modrinth.com/mod/amber) version 8.3.2
         - [[饥饿显示]Appleskin](https://modrinth.com/mod/appleskin) version 3.0.7
         - [[目标显示前置]bad packets](https://modrinth.com/mod/badpackets) version 0.10.2
         - [[C^2ME-区块引擎]Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) version 0.3.6+alpha.0.9
@@ -34,7 +34,7 @@
         - [[魔法库]MagicLib](https://modrinth.com/mod/magiclib) version 0.8.781-beta
         - [[masa运行库]MaLiLib](https://modrinth.com/mod/malilib) version 0.26.7
         - [[迷你信息]MiniHUD](https://modrinth.com/mod/minihud) version 0.37.5
-        - [[mod列表]Mod Menu](https://modrinth.com/mod/modmenu) version 16.0.0-rc.1
+        - [[mod列表]Mod Menu](https://modrinth.com/mod/modmenu) version 16.0.0-rc.2
         - [[粒子雨]Particle Rain](https://modrinth.com/mod/particle-rain) version 4.0.0-beta.3
         - [[钠-界面替换]reeses sodium options](https://modrinth.com/mod/reeses-sodium-options) version 1.8.6
         - [[回放]Replay](https://modrinth.com/mod/replaymod) version 2.6.25

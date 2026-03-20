@@ -41,7 +41,7 @@
         - [[MiniHUD服务端组件]Servux](https://modrinth.com/mod/servux) version 0.9.2
         - [[钠-附加]Sodium Extra](https://modrinth.com/mod/sodium-extra) version 0.8.3
         - [[钠]Sodium](https://modrinth.com/mod/sodium) version 0.8.6
-        - ~~[[技巧操作附加]Tweakermore](https://modrinth.com/mod/tweakermore) version 3.28.0~~
+        - ~~[[技巧操作附加]Tweakermore](https://modrinth.com/mod/tweakermore) version 3.29.1~~
         - [[技巧操作]Tweakeroo](https://modrinth.com/mod/tweakeroo) version 0.27.6
         - [[Voxel小地图]VoxelMap Updated](https://modrinth.com/mod/voxelmap-updated) version 1.16.3
         - [[目标显示]Wthit](https://modrinth.com/mod/wthit) version 18.2.1
